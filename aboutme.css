@@ -1,0 +1,60 @@
+body {
+  padding: 0;
+  margin: 0;
+  margin-top: 56px;
+  background-color: #1E1E1E;
+
+}
+
+.header {
+  position: relative;
+  text-align: center;
+}
+
+.background-image {
+  height: 600px;
+  width: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.about-me {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 600%;
+  color: white;
+}
+
+.about {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 200%;
+  color: white;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+}
+
+.video-header {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 400%;
+  color: white;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  text-decoration-line: underline;
+}
+
+iframe {
+  aspect-ratio: 16 / 9;
+  border: none;
+}
